@@ -5,15 +5,16 @@
 }
 
 .form_control label {
-    margin-bottom: .6em;
+    margin-bottom: 0.6em;
     font-weight: bold;
 }
 
 .form_control select {
-    padding: .7em;
+    padding: 0.7em;
     border-radius: 0;
     border: none;
-    box-shadow:none;
+    outline: none;
+    -webkit-appearance: none; /* Adicione esta linha para navegadores baseados em WebKit, como o Chrome */
+    -moz-appearance: none; /* Adicione esta linha para navegadores baseados em Gecko, como o Firefox */
+    appearance: none;
 }
-
-
