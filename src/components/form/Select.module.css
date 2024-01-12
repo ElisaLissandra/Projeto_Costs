@@ -14,7 +14,7 @@
     border-radius: 0;
     border: none;
     outline: none;
-    -webkit-appearance: none; /* Adicione esta linha para navegadores baseados em WebKit, como o Chrome */
-    -moz-appearance: none; /* Adicione esta linha para navegadores baseados em Gecko, como o Firefox */
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
     appearance: none;
 }
