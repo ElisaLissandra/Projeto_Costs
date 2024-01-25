@@ -61,6 +61,17 @@
       "cost": 0,
       "services": [],
       "id": 6
+    },
+    {
+      "name": "Projeto teste mensagem",
+      "budget": "1500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
