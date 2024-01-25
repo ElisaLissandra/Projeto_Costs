@@ -36,7 +36,6 @@ function ProjectForm({ handleSubmit, btnText, projectData}) {
     // Adiciona o nome do projeto
     function handleChange(e) {
         setProject({ ...project, [e.target.name]: e.target.value })
-        console.log(project)
     }
 
     // Adiciona a categoria do projeto
