@@ -11,7 +11,6 @@ import styles from './Projects.module.css'
 
 
 
-
 function Projects() {
 
     // Armazena as informações dos projetos
@@ -20,36 +19,46 @@ function Projects() {
     // Mensagem
     const location = useLocation()
     let message = ''
-    if(location.state) {
+    if (location.state) {
         message = location.state.message
     }
 
     // Recupera as informações dos projetos
-    useEffect (() => {
+    useEffect(() => {
         fetch('http://localhost:5000/projects', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
             },
         }).then(resp => resp.json())
-        .then(data => {
-            console.log(data)
-            setProjects(data)
-        })
-        .catch((err) => console.log(err))
+            .then(data => {
+                console.log(data)
+                setProjects(data)
+            })
+            .catch((err) => console.log(err))
     }, [])
 
     return (
         <div className={styles.project_container}>
             <div className={styles.title_container}>
                 <h1>Meus Projetos</h1>
-                <LinkButton to="/newproject" text="Criar Projeto" />
+                <LinkButton to="/newproject" text="Criar projeto" />
             </div>
-            {message && <Message type="success" msg={message} />} 
+            {message && <Message type="success" msg={message} />}
             <Container customClass="start">
-                {projects.length > 0 && projects.map((project) => <ProjectCard name={project.name} />)}
+                {projects.length > 0 &&
+                    projects.map((project) => (
+                        <ProjectCard
+                            name={project.name}
+                            budget={project.budget}
+                            category={project.category ? project.category.name : 'Sem categoria'}
+                            key={project.id}
+                            project={project} 
+                        />
+                    ))}
             </Container>
         </div>
+
     )
 }
 
