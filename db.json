@@ -12,8 +12,8 @@
       "id": 1
     },
     {
-      "name": "Projeto 2",
-      "budget": "5000",
+      "name": "Cost",
+      "budget": "6000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
