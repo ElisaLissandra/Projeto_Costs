@@ -18,8 +18,39 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 500,
+      "services": [
+        {
+          "name": "Projeto Elisa",
+          "cost": "100",
+          "Description": "teste teste",
+          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+        },
+        {
+          "name": "Projeto Elisa",
+          "cost": "100",
+          "Description": "teste teste",
+          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+        },
+        {
+          "name": "Projeto Elisa",
+          "cost": "100",
+          "Description": "teste teste",
+          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+        },
+        {
+          "name": "Projeto Elisa",
+          "cost": "100",
+          "Description": "teste teste",
+          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+        },
+        {
+          "name": "Projeto Elisa",
+          "cost": "100",
+          "Description": "teste teste",
+          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+        }
+      ],
       "id": 2
     }
   ],
