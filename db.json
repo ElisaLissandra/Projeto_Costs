@@ -7,8 +7,45 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 8900,
+      "services": [
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "1000",
+          "Description": "Criar um formulário",
+          "id": "77f4b55b-201c-4243-bcc4-9e287d297998"
+        },
+        {
+          "name": "teste",
+          "cost": "500",
+          "Description": "teste descrição",
+          "id": "2aaa35dd-9ae1-41cf-8f83-7a366d1189ec"
+        },
+        {
+          "name": "Teste2",
+          "cost": "3000",
+          "Description": "teste descrição 2",
+          "id": "bacb5f68-4bad-43e8-952d-ca7a94c0a506"
+        },
+        {
+          "name": "teste3",
+          "cost": "2000",
+          "description": "teste descrição 3",
+          "id": "fb1e69b8-7393-4c1c-b870-7f85c980ba65"
+        },
+        {
+          "name": "Contratar Dev PHP",
+          "cost": "2000",
+          "description": "Criação de formulário",
+          "id": "7152893c-90ea-48a4-b51f-dce8b729bd90"
+        },
+        {
+          "name": "Teste formulário",
+          "cost": "100",
+          "description": "teste formulário",
+          "id": "7d22e92e-a91c-48e3-9598-65c8107d4bf6"
+        }
+      ],
       "id": 1
     },
     {
