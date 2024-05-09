@@ -1,57 +1,22 @@
 {
   "projects": [
     {
-      "name": "Cost",
-      "budget": "6000",
+      "name": "Projeto Cost",
+      "budget": "2000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 500,
+      "cost": 1000,
       "services": [
         {
-          "name": "Projeto Elisa",
-          "cost": "100",
-          "Description": "teste teste",
-          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
-        },
-        {
-          "name": "Projeto Elisa",
-          "cost": "100",
-          "Description": "teste teste",
-          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
-        },
-        {
-          "name": "Projeto Elisa",
-          "cost": "100",
-          "Description": "teste teste",
-          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
-        },
-        {
-          "name": "Projeto Elisa",
-          "cost": "100",
-          "Description": "teste teste",
-          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
-        },
-        {
-          "name": "Projeto Elisa",
-          "cost": "100",
-          "Description": "teste teste",
-          "id": "9b259d53-16a4-435d-bd7b-3d5903ce6767"
+          "name": "Contratar Dev Front-end",
+          "cost": "1000",
+          "description": "Desenvolver uma dashboard",
+          "id": "098ba192-8878-4c13-bddd-50a4f078ae01"
         }
       ],
-      "id": 2
-    },
-    {
-      "name": "Projeto Front-end",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
+      "id": 1
     }
   ],
   "categories": [
