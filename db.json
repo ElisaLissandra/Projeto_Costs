@@ -1,88 +1,22 @@
 {
   "projects": [
     {
-      "name": "projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "projeto teste1",
+      "name": "Projeto Cost",
       "budget": "2000",
       "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "projeto teste2",
-      "budget": "1000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "projeto teste3",
-      "budget": "1000",
-      "cost": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "name": "projeto teste4",
-      "budget": "1000",
-      "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "Projeto teste mensagem",
-      "budget": "1500",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "name": "teste",
-      "budget": "1000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 8
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Contratar Dev Front-end",
+          "cost": "1000",
+          "description": "Desenvolver uma dashboard",
+          "id": "098ba192-8878-4c13-bddd-50a4f078ae01"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [
