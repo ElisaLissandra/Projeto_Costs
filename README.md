@@ -11,7 +11,7 @@
 ![ Imagem da home](/img/home.png)
 
 ## Formulário de criação do projeto
-![ Imagem do formuçario de criação](/img/home.png)
+![ Imagem do formuçario de criação](img/formulario-criacao.png)
 
 
 ## Exibição dos projetos
